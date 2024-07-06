@@ -1,0 +1,55 @@
+.main {
+    height: 80%;
+    background-color: wheat;
+    display: flex;
+}
+.wrapper_left {
+    position: relative;
+    width: 50%;
+    height: 50vw;
+    /*background-color: #b0864c;*/
+    background: no-repeat center/100% url("../../img/walpapLeft.jpg");
+    cursor: pointer;
+}
+.left_foto {
+    max-height: 350px;
+    position: absolute;
+    right: 0;
+    top: 20%;
+}
+.listDesing {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
+.wrapper_right {
+    position: relative;
+    width: 50%;
+    height: 50vw;
+    /*background-color: #3f3d38;*/
+    background: no-repeat center/100% url("../../img/walpapRight.jpg");
+    cursor: pointer;
+}
+.right_foto {
+    max-height: 350px;
+    position: absolute;
+    left: 0;
+    top: 20%;
+}
+.eng {
+    color: silver;
+    font-size: 3rem;
+    transform: rotateZ(-45deg);
+    position: absolute;
+    left: 30%;
+    top: 20%;
+}
+.rus {
+    color: gold;
+    font-size: 4rem;
+    transform: rotateZ(45deg);
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    /*border: 4mm ridge rgba(211, 220, 50, .6);*/
+}

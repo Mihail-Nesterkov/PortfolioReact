@@ -1,0 +1,53 @@
+.mainPortfolio {
+    display: flex;
+    justify-content: center;
+    min-height: 600px;
+    background: no-repeat center/100% url("../../img/walMainPortf.jpg");
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    position: relative;
+    width: 250px;
+    height: 175px;
+    background: no-repeat center/100% url("../../img/walCard.jpg");
+    border-radius: 10px;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.aCard {
+    font-size: 16px;
+    text-decoration: none;
+    background-color: darkseagreen;
+    color: black;
+    padding: 5px 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.aCard:hover {
+    transition: 0.5s;
+    background-color: cornflowerblue;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.buttonCard {
+    position: absolute;
+    bottom: 20px;
+}
+.block {
+    display: none;
+}
+
+.card {
+    font-size: 25px;
+}
+.cardLink:hover {
+    width: 270px;
+    height: 200px;
+    transition: 0.3s;
+}

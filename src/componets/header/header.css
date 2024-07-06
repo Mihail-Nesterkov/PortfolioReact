@@ -1,0 +1,30 @@
+.header {
+    background: darkgray;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50px;
+}
+.logo {
+    max-height: 40px;
+}
+.navList {
+    display: flex;
+
+}
+.navListBut {
+    color: black;
+    margin: 2px 48px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navLi {
+    list-style-type: none;
+}
+.navListBut:hover {
+    transition: 0.5s;
+    margin: 0 48px;
+    color: #6fee29;
+    text-decoration: underline;
+}

@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    padding: 10px;
+    min-height: 50px;
+    background-color: #1a1919;
+    justify-content: space-between;
+}
+.navEmail {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+.ulFoot {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.GitLogo {
+
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.textFoot {
+    color: white;
+}

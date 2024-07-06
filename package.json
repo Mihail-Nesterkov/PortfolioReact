@@ -1,13 +1,16 @@
 {
-  "name": "untitled",
-  "version": "0.1.0",
+  "name": "portfolio",
+  "version": "1.0.0",
+  "author": "Mihail-Nesterkov",
   "private": true,
   "dependencies": {
+    "@react-email/link": "0.0.8",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -16,6 +19,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mihail-Nesterkov/PortfolioReact"
   },
   "eslintConfig": {
     "extends": [

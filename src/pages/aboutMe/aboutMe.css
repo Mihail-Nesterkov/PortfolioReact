@@ -1,0 +1,17 @@
+
+.mainAboutMe {
+    background-color: bisque;
+    padding: 15px 20px;
+    min-height: 80vh;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}
+.bio {
+    font-family: "Playwrite NG Modern", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: pre-wrap;
+}
